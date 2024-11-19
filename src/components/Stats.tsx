@@ -1,4 +1,4 @@
-import wotopus from "./assets/woctopus.png";
+import wotopus from "../assets/woctopus.png";
 
 export const Stats = () => (
   <section className="bg-black min-h-screen w-full p-10 lg:py-44 lg:px-32 relative flex items-center">
