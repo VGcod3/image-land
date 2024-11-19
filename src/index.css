@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ActayWide";
+  src: local("ActayWide-Bold"),
+    url("../fonts/ActayWide-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "ProximaNova";
+  src: local("ProximaNova-Regular"),
+    url("../fonts/ProximaNova-Regular.ttf") format("opentype");
+}
+
+* {
+  @apply -tracking-tight;
+}
+
+.outlined-text {
+  text-shadow: 2px 2px 0 #7300f4, -2px -2px 0 #7300f4, 2px -2px 0 #7300f4,
+    -2px 2px 0 #7300f4;
+}
