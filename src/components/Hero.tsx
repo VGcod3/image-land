@@ -12,13 +12,13 @@ export const Hero = () => {
         or how we implemented profitable marketing solutions for trading
         platform?
       </p>
-      <div className="flex flex-col lg:flex-row justify-between text-xl lg:text-3xl mt-40 max-w-[60%] mx-8 gap-2">
-        <div className="bg-white px-12 lg:px-28 py-8 rounded-full text-center text-black">
+      <div className="flex flex-col lg:flex-row justify-between text-3xl mt-40 lg:max-w-[60%] mx-8 gap-2">
+        <button className="bg-white px-12 lg:px-28 py-6 rounded-full text-center text-black">
           Telegram
-        </div>
-        <div className="bg-white px-12 lg:px-28 py-8 rounded-full text-center text-black">
+        </button>
+        <button className="bg-white px-12 lg:px-28 py-6 rounded-full text-center text-black">
           WhatsApp
-        </div>
+        </button>
       </div>
     </section>
   );

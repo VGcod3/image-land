@@ -1,6 +1,6 @@
 export const Marketing = () => {
   return (
-    <section className=" p-32 pb-0 bg-black text-white text-3xl lg:text-5xl flex flex-col gap-6 items-center">
+    <section className="p-8 lg:p-32 pb-0 bg-black text-white text-3xl lg:text-5xl flex flex-col gap-6 items-center">
       <h1 className="font-actay">
         Do you want your <span className="text-secondary">marketing</span> to be
         more than just a pretty picture and actually drive{" "}
