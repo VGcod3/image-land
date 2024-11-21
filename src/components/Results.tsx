@@ -30,7 +30,7 @@ export const Results = () => {
           />
 
           <a
-            href="calendly.com/adscontrol_ceo"
+            href="https://calendly.com/adscontrol_ceo"
             className="col-span-full w-full"
           >
             <button className="w-full bg-secondary hover:scale-105 transition-all duration-500 h-20 font-proxima uppercase text-black text-3xl col-span-full rounded-full">

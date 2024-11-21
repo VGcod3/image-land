@@ -3,7 +3,7 @@ import profits2 from "../assets/profits2.png";
 
 export const Profits = () => {
   return (
-    <section className="min-h-screen p-24 bg-black text-white text-3xl lg:text-5xl flex flex-col items-center">
+    <section className="min-h-screen p-8 lg:p-24 bg-black text-white text-3xl lg:text-5xl flex flex-col items-center">
       <div className="grid grid-col my-12">
         <h1 className="font-actay">
           ADS CONTROL on controlling your{" "}
@@ -17,12 +17,12 @@ export const Profits = () => {
         <img
           src={profits2}
           alt="profits"
-          className="w-full max-w-md lg:max-w-xl mr-0 lg:mr-64"
+          className="w-full max-w-md lg:max-w-xl mr-0"
         />
         <img
           src={profits1}
           alt="profits"
-          className="w-full max-w-md lg:max-w-2xl lg:absolute lg:right-16 top-24"
+          className="w-full max-w-md lg:max-w-2xl lg:absolute lg:left-28 top-28 max-lg:mt-4"
         />
       </div>
     </section>
