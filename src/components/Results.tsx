@@ -8,7 +8,7 @@ export const Results = () => {
   return (
     <section className="flex flex-col gap-4 p-4  bg-black">
       <div className="mx-auto max-w-7xl w-full">
-        <h2 className="font-bold font-actay text-center text-3xl md:text-5xl p-8 mb-10 text-white">
+        <h2 className="font-bold font-actay text-center text-2xl md:text-5xl p-8 mb-10 text-white">
           Results from the First 3 Months of Work:
         </h2>
 
