@@ -1,5 +1,5 @@
 import telegram from "../assets/telegram.svg";
-import whatsapp from "../assets/whatsapp.svg";
+import whatsapp from "../assets/WhatsApp.svg";
 
 export const Marketing = () => {
   return (

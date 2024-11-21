@@ -2,7 +2,7 @@ import conversion from "../assets/conversion.png";
 import volume from "../assets/volume.png";
 import activity from "../assets/activity.png";
 import telegram from "../assets/telegram.svg";
-import whatsapp from "../assets/whatsapp.svg";
+import whatsapp from "../assets/WhatsApp.svg";
 
 export const Results = () => {
   return (
