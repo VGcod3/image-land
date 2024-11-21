@@ -1,3 +1,6 @@
+import telegram from "../assets/telegram.svg";
+import whatsapp from "../assets/whatsapp.svg";
+
 export const Hero = () => {
   return (
     <section className="flex flex-col gap-4 p-4 mt-12 lg:mt-32">
@@ -12,13 +15,27 @@ export const Hero = () => {
         or how we implemented profitable marketing solutions for trading
         platform?
       </p>
-      <div className="flex flex-col lg:flex-row justify-between text-3xl mt-40 lg:max-w-[60%] mx-8 gap-2">
-        <button className="bg-white px-12 lg:px-28 py-6 rounded-full text-center text-black">
-          Telegram
-        </button>
-        <button className="bg-white px-12 lg:px-28 py-6 rounded-full text-center text-black">
-          WhatsApp
-        </button>
+      <div className="flex flex-col lg:flex-row justify-between text-3xl mt-40 lg:max-w-[60%] mx-8 gap-6">
+        <a href="http://t.me/adscontrol_manager" className="w-full">
+          <button className="w-full rounded-full hover:scale-105 transition-all duration-500 bg-white h-20 font-proxima text-black text-3xl relative">
+            Telegram
+            <img
+              src={telegram}
+              alt="telegram"
+              className="absolute top-2 right-2 w-16 h-16"
+            />
+          </button>
+        </a>
+        <a href="tel:+380684266961" className="w-full">
+          <button className="w-full rounded-full hover:scale-105 transition-all duration-500 bg-white h-20 font-proxima text-black text-3xl relative">
+            WhatsApp
+            <img
+              src={whatsapp}
+              alt="whatsapp"
+              className="absolute top-2 right-2 w-16 h-16"
+            />
+          </button>
+        </a>
       </div>
     </section>
   );
