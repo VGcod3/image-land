@@ -1,7 +1,7 @@
 import wotopus from "../assets/woctopus.png";
 
 export const Stats = () => (
-  <section className="bg-black min-h-screen w-full p-10 lg:py-44 lg:px-32 relative flex items-center">
+  <section className="bg-black md:min-h-screen w-full p-10 lg:py-44 lg:px-32 relative flex items-center">
     <div className="flex flex-col gap-20 justify-between font-proxima text-2xl relative z-20">
       <div className="flex flex-col gap-5">
         <h1 className="font-actay text-secondary text-3xl lg:text-6xl">
@@ -17,7 +17,7 @@ export const Stats = () => (
           0,12% - 0,24%
         </h1>
         <p className="md:max-w-[60%] max-md:text-sm text-white">
-          Ward Broker's share of the CIS market of trading platforms and brokers
+          Share of the CIS market of trading platform and brokers{" "}
         </p>
       </div>
     </div>

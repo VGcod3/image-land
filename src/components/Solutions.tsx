@@ -2,7 +2,7 @@ import clientChallenges from "../assets/client-challenges.svg";
 import ourSolutions from "../assets/our-solutions.svg";
 
 export const Solutions = () => (
-  <section className="bg-black text-white p-4 grid grid-cols-1 lg:grid-cols-2 pt-32 ">
+  <section className="bg-black text-white p-4 grid grid-cols-1 lg:grid-cols-2 pt-12 lg:pt-32 ">
     <img
       src={clientChallenges}
       alt={clientChallenges}
