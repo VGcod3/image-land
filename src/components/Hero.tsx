@@ -1,5 +1,6 @@
 import telegram from "../assets/telegram.svg";
 import whatsapp from "../assets/WhatsApp.svg";
+import mobileOctopus from "../assets/mobile-octopus.png";
 
 /*
       <div className=" h-screen w-screen bg-cover bg-center bg-no-repeat bg-[url(./assets/mobile-octopus.png)] lg:bg-[url(./assets/octopus.png)] ">
@@ -8,8 +9,14 @@ import whatsapp from "../assets/WhatsApp.svg";
 
 export const Hero = () => {
   return (
-    <section className="h-screen bg-[url(./assets/mobile-octopus.png)] lg:bg-[url(./assets/octopus.png)] bg-no-repeat bg-cover sm:bg-cover bg-bottom">
-      <div className="h-screen flex flex-col gap-4 p-4 pt-20 pb-8 lg:pb-20 lg:pt-32 justify-between ">
+    <section className=" bg-black lg:bg-[url(./assets/octopus.png)] bg-no-repeat bg-cover sm:bg-cover bg-bottom ">
+      <img
+        src={mobileOctopus}
+        alt="mobile octopus"
+        className="w-full absolute bottom-[35svh] z-10 lg:hidden"
+      />
+
+      <div className="h-screen flex flex-col gap-4 p-4 pt-20 pb-8 lg:pb-20 lg:pt-32 justify-between relative z-20">
         <div className="flef flex-col gap-4">
           <h2 className="text-4xl sm:text-6xl text-primary font-actay uppercase max-w-5xl text-wrap">
             how we attracted more{" "}
