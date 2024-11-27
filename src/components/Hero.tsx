@@ -25,7 +25,7 @@ export const Hero = () => {
             </span>{" "}
             for 3 months?
           </h2>
-          <p className="text-black text-md lg:text-3xl font-proxima max-w-md lg:max-w-4xl">
+          <p className="text-black text-md lg:text-3xl font-proxima max-w-[70%] md:max-w-md lg:max-w-4xl ">
             or how we implemented profitable marketing solutions for trading
             platform?
           </p>

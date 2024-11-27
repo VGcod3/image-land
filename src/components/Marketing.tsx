@@ -14,7 +14,7 @@ export const Marketing = () => {
           href="https://calendly.com/adscontrol_ceo"
           className="col-span-full w-full"
         >
-          <button className="hover:scale-105 transition-all duration-500 w-full bg-secondary h-20 font-proxima uppercase text-black text-2xl lg:text-3xl col-span-full rounded-full">
+          <button className="hover:scale-105 transition-all duration-500 w-full bg-secondary h-20 font-proxima text-black text-2xl lg:text-3xl col-span-full rounded-full px-3">
             Go to free marketing consult
           </button>
         </a>
@@ -22,7 +22,7 @@ export const Marketing = () => {
           href="http://t.me/adscontrol_manager"
           className="col-span-full lg:col-span-3 w-full"
         >
-          <button className="hover:scale-105 transition-all duration-500 w-full rounded-full bg-white h-20 font-proxima text-black lg:text-3xl relative">
+          <button className="hover:scale-105 transition-all duration-500 w-full rounded-full bg-white h-20 font-proxima text-black lg:text-3xl text-2xl relative">
             Telegram
             <img
               src={telegram}
@@ -35,7 +35,7 @@ export const Marketing = () => {
           href="tel:+380684266961"
           className="col-span-full lg:col-span-3 w-full"
         >
-          <button className="hover:scale-105 transition-all duration-500 w-full rounded-full bg-white h-20 font-proxima text-black text-3xl relative">
+          <button className="hover:scale-105 transition-all duration-500 w-full rounded-full bg-white h-20 font-proxima text-black lg:text-3xl text-2xl relative">
             WhatsApp
             <img
               src={whatsapp}
