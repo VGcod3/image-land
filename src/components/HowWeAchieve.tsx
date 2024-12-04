@@ -2,7 +2,7 @@ export const HowWeAchieve = () => {
   return (
     <section className="p-8 bg-black text-white text-lg md:text-3xl ">
       <div className="mx-auto max-w-7xl flex flex-col font-proxima gap-5">
-        <h2 className="font-bold font-actay text-center text-2xl md:text-5xl p-8 mb-10">
+        <h2 className="font-bold font-actay text-center text-3xl md:text-5xl  mb-10">
           How we achieved the result:
         </h2>
         <p>

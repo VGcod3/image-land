@@ -2,11 +2,6 @@ import telegram from "../assets/telegram.svg";
 import whatsapp from "../assets/WhatsApp.svg";
 import mobileOctopus from "../assets/mobile-octopus.png";
 
-/*
-      <div className=" h-screen w-screen bg-cover bg-center bg-no-repeat bg-[url(./assets/mobile-octopus.png)] lg:bg-[url(./assets/octopus.png)] ">
-
-*/
-
 export const Hero = () => {
   return (
     <section className=" bg-black lg:bg-[url(./assets/octopus.png)] bg-no-repeat bg-cover sm:bg-cover bg-bottom ">
