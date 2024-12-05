@@ -19,7 +19,7 @@ export const Marketing = () => {
           </button>
         </a>
         <a
-          href="http://t.me/adscontrol_manager"
+          href="http://t.me/adscontrol_manager?_lp=1"
           className="col-span-full lg:col-span-3 w-full"
         >
           <button className="hover:scale-105 transition-all duration-500 w-full rounded-full bg-white h-20 font-proxima text-black lg:text-3xl text-2xl relative">

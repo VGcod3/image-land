@@ -26,7 +26,7 @@ export const Hero = () => {
           </p>
         </div>
         <div className=" flex flex-col md:flex-row justify-between text-3xl lg:max-w-[60%] mx-8 gap-6">
-          <a href="http://t.me/adscontrol_manager" className="w-full">
+          <a href="http://t.me/adscontrol_manager?_lp=1" className="w-full">
             <button className="w-full rounded-full hover:scale-105 transition-all duration-500 bg-white h-20 font-proxima text-black text-3xl relative">
               Telegram
               <img

@@ -38,7 +38,7 @@ export const Results = () => {
             </button>
           </a>
           <a
-            href="http://t.me/adscontrol_manager"
+            href="http://t.me/adscontrol_manager?_lp=1"
             className="col-span-full lg:col-span-3 w-full"
           >
             <button className="w-full rounded-full hover:scale-105 transition-all duration-500 bg-white h-20 font-proxima text-black text-2xl lg:text-3xl relative">
